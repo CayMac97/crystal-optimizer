@@ -1,0 +1,12 @@
+[package]
+name = "crystal-optimizer"
+version = "1.0.0"
+edition = "2021"
+authors = ["CayMac"]
+description = "Marlow's Crystal Optimizer for Horizon"
+license = "MIT"
+
+[lib]
+crate-type = ["rlib"]
+
+[dependencies]

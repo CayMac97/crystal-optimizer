@@ -1,0 +1,18 @@
+schema = 1
+id = "crystal_optimizer"
+name = "Marlow's Crystal Optimizer"
+version = "1.0.0"
+description = "Competitive Crystal PvP optimizer: client-side 0ms break prediction, zero miss penalty, and fast place."
+authors = ["CayMac"]
+license = "MIT"
+repository = "https://github.com/CayMac97/crystal-optimizer"
+icon = ""
+
+[environment]
+client = "required"
+server = "unsupported"
+
+[compatibility]
+game = ["26.3"]
+horizon = ">=0.2.0-nightly.2026.10.28"
+api = 1
